@@ -5,7 +5,7 @@
 %global crate daemonbase
 
 Name:           rust-daemonbase
-Version:        0.1.3
+Version:        0.1.2
 Release:        %autorelease
 Summary:        Library for providing the foundation for daemon processes
 
