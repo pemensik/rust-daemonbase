@@ -12,6 +12,8 @@ Summary:        Library for providing the foundation for daemon processes
 License:        BSD-3-Clause
 URL:            https://crates.io/crates/daemonbase
 Source:         %{crates_source}
+# Manually created patch for downstream crate metadata changes
+Patch:          daemonbase-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
